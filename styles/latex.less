@@ -1,0 +1,90 @@
+.syntax--latex,
+.syntax--tex {
+  .syntax--bold {
+    font-weight: bold;
+    color: white !important;
+  }
+
+  .syntax--italic {
+    font-style: italic;
+    color: white;
+  }
+
+  .syntax--keyword,
+  .syntax--storage,
+  .syntax--storage .syntax--punctuation {
+    color: @dark1;
+  }
+
+  .syntax--constant {
+    color: @yellow5;
+  }
+
+  .syntax--definition .syntax--constant {
+    color: @purple2;
+  }
+
+  .syntax--math {
+    color: @blue1 !important;
+    .syntax--escape,
+    .syntax--escape .syntax--punctuation {
+      color: @blue2;
+    }
+    .syntax--support .syntax--function.syntax--punctuation,
+    .syntax--support.syntax--function{
+      color: @blue3 !important;
+      // font-weight: bold;
+    }
+  }
+
+  .syntax--table.syntax--punctuation {
+    color: @blue1;
+  }
+
+  .syntax--support.syntax--function,
+  .syntax--support .syntax--function.syntax--punctuation {
+    color: @dark1 !important;
+  }
+
+  .syntax--braces{
+    color: @yellow5;
+  }
+
+  .syntax--function.syntax--section,
+  .syntax--section .syntax--function.syntax--punctuation{
+    color: @dark1 !important;
+    // font-weight: bold;
+  }
+
+  .syntax--name.syntax--section {
+    font-weight: bold;
+    color: @orange3 !important;
+  }
+}
+
+
+
+.syntax--bibtex{
+  .syntax--entry-type,
+  .syntax--entry-type .syntax--punctuation {
+    color: @dark2;
+    font-weight: bold;
+  }
+
+  .syntax--entity.syntax--name.syntax--type {
+    color: @light3;
+  }
+
+  .syntax--key {
+    color: @dark1;
+  }
+
+  .syntax--braces,
+  .syntax--braces .syntax--punctuation.syntax--definition.syntax--string {
+    color: @yellow5;
+  }
+
+  .syntax--string .syntax--punctuation {
+    color: @orange2;
+  }
+}

@@ -1,0 +1,81 @@
+.syntax--python{
+  color: @light3;
+
+  .syntax--builtin {
+    color: @purple2;
+    font-weight: bold;
+    font-style: normal !important;
+  }
+
+  .syntax--arithmetic,
+  .syntax--assignment {
+    color: @light2 !important;
+  }
+
+  .syntax--string {
+    color: @yellow5;
+
+    .syntax--format {
+      color: @yellow4;
+      font-weight: normal;
+    }
+  }
+
+  .syntax--regexp {
+    color: @yellow4;
+  }
+
+  .syntax--numeric {
+    color: @orange3;
+    font-weight: normal;
+  }
+
+  .syntax--comment,
+  .syntax--comment .syntax--punctuation {
+    color: @dark1;
+  }
+
+  .syntax--entity.syntax--name.syntax--class {
+    color: @green5;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+
+  .syntax--operator,
+  .syntax--punctuation {
+    color: white;
+  }
+  .syntax--control {
+    font-weight: bold;
+  }
+
+  .syntax--keyword {
+    color: @purple2;
+    font-weight: bold;
+    // color: @orange3;
+    .syntax--control {
+      color: @light1;
+    }
+  }
+  .syntax--storage {
+    font-weight: bold;
+  }
+
+  .syntax--parameter {
+    color: @light3;
+  }
+
+
+
+
+
+  // &.syntax--variable {}
+  .syntax--function {
+    font-style: italic;
+    .syntax--name {
+      color: @blue2;
+    }
+  }
+
+}

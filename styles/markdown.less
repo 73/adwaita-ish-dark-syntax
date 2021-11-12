@@ -1,0 +1,79 @@
+// https://github.com/burodepeper/minimal-syntax/blob/master/styles/markup-and-down.less
+
+.syntax--markup {
+  &.syntax--bold,
+  &.syntax--heading,
+  &.syntax--strong.syntax--emphasis {
+    font-weight: bold;
+  }
+
+  &.syntax--heading {
+    color: @orange3;
+  }
+  &.syntax--italic,
+  &.syntax--emphasis:not(.syntax--strong) {
+    font-style: italic;
+  }
+
+  &.syntax--underline {
+    text-decoration: underline;
+  }
+
+  &.syntax--strike {
+    text-decoration: line-through;
+  }
+}
+
+
+.syntax--md {
+   .syntax--heading-1,
+   .syntax--heading-2,
+   .syntax--heading-3,
+   .syntax--heading-4,
+   .syntax--heading-5,
+   .syntax--heading-6 {
+     font-weight: bold;
+     color: @orange3;
+   }
+
+   .syntax--link{
+     color: @light5;
+   .syntax--string {
+     color: @purple2;
+   }
+   &.syntax--raw,
+   &.syntax--code {
+    color: @yellow5;
+   }
+ }
+
+   .syntax--list .syntax--punctuation{
+     color: @purple2;
+     font-weight: bold;
+   }
+
+   .syntax--punctuation {
+     // font-weight: bold;
+     font-weight: normal;
+     color: @light5;
+   }
+
+   .syntax--code {
+     .syntax--punctuation{
+       color: @yellow5;
+     }
+     color: @yellow5;
+   }
+
+   .syntax--string {
+     color: @yellow5;
+   }
+
+   .syntax--strong {
+     color: white;
+   }
+
+   .syntax--underline{
+     text-decoration: underline;
+   }
+ }

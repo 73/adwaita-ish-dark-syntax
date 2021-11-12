@@ -1,0 +1,18 @@
+{
+  "name": "adwaita-ish-dark-syntax",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "description": "A syntax theme to resemble Adwaita Dark",
+  "keywords": [
+    "syntax",
+    "theme",
+    "Adwaita",
+    "Dark",
+    "GNOME"
+  ],
+  "repository": "https://github.com/73/adwaita-ish-dark-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
